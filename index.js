@@ -30,22 +30,21 @@ let con=0
 function popUP(){
     document.querySelector(".sign-up").style.display="block"
     document.querySelector(".color").style.opacity=0.4
-    con=1
+    console.log("yes")
 }
 
-let col_pop=document.querySelector(".color")
-if(con===1){
+let col_pop=document.querySelector(".a")
+
 col_pop.addEventListener("click",run)
-}
 
-console.log(col_up)
+
 
 function run(){
 
     document.querySelector(".sign-up").style.display="none"
     document.querySelector(".color").style.opacity=1
+    console.log("NO")
     con=0
-    
 }
 
 
