@@ -517,5 +517,64 @@ display: none;
 border-radius: 12px;
 margin: auto;}
 
+.navimg{cursor: pointer;}
+
+.baritem{cursor: pointer;}
+
+.baritem:nth-child(1){
+    background-color: #0b7843;
+}
+.grey-part{background-color: #f0f0f0;
+padding: 15px 0;
+padding-bottom: 30px;
+margin-bottom: 40px;}
+.grey-part>div{width: 70%;
+margin: auto;
+text-align: justify;}
+.top-btn{display: grid;
+grid-template-columns: repeat(5,1fr);
+gap: 12px;}
+a{text-decoration: none;}
+
+.top-btn>select,.top-btn>button,.top-btn>input{
+    height: 200%;
+}
 
 
+
+.grey-part+div>img{
+border:3px solid;
+width: 100%;
+margin: auto;
+}
+
+.grey-part+div{
+    width: 70%;
+    margin: auto;
+}
+
+.grid-view{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.grid-view>div>img:nth-child(1){width: 100%;
+border-radius: 12px;}
+
+.grid-btn{display: flex;
+align-items: space-between;
+justify-content: space-around;}
+
+.grid-btn>button{
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    background-color: red;
+    padding: 4px;
+}
+.grid-view>div{
+    border: 3px solid ;
+    border-radius: 12px;
+}
