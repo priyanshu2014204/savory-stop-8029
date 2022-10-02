@@ -48,5 +48,21 @@ function run(){
 }
 
 
+let meal=document.querySelector(".meal_deal")
+meal.addEventListener("click",bruh);
+
+
+function bruh(){
+// document.querySelector(".baritem:nth-child(1)").style.backgroundColor="#2bb673"
+// document.querySelector(".baritem:nth-child(2)").style.backgroundColor="darkgreen"
+
+    window.open("meal.html")
+    
+// .baritem:nth-child(1){
+//     background-color: #0b7843;
+// }
+// console.log(document.querySelector(".baritem:nth-child(1)"))
+}
+
 
 
